@@ -1,0 +1,30 @@
+app:
+  name: Health Data GenAI Analyzer
+  version: v1
+
+data:
+  dataset_1_path: data/raw/health_dataset_1.csv
+  dataset_2_path: data/raw/health_dataset_2.csv
+
+model:
+  provider: openai
+  model_name: gpt-4o-mini
+  temperature: 0.2
+  max_tokens: 700
+
+thresholds:
+  low_activity_threshold: 4000
+  stable_activity_trend_delta: 500
+
+chart:
+  default_height: 400
+  default_width: 600
+
+safety:
+  enable_output_validation: true
+  enable_pii_redaction: true
+  enable_medical_guardrails: true
+
+observability:
+  enable_metrics: true
+  enable_request_logging: true

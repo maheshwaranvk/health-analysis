@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+pandas
+openpyxl
+langchain
+langchain-openai
+openai
+pydantic
+python-dotenv
+pyyaml
+streamlit
+matplotlib
+plotly
+prometheus-client
+pytest
+httpx

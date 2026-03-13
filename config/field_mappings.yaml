@@ -1,0 +1,33 @@
+# Categorical code-to-label mappings for display only.
+# Raw numeric values are kept for analysis.
+
+Sex:
+  0: Male
+  1: Female
+
+Blood_Pressure_Abnormality:
+  0: Normal
+  1: Abnormal
+
+Smoking:
+  0: Non-Smoker
+  1: Smoker
+
+Chronic_kidney_disease:
+  0: No
+  1: Yes
+
+Adrenal_and_thyroid_disorders:
+  0: No
+  1: Yes
+
+Pregnancy:
+  -1: Not_Applicable
+  -2: Unknown
+  0: "No"
+  1: "Yes"
+
+Level_of_Stress:
+  1: Low
+  2: Medium
+  3: High

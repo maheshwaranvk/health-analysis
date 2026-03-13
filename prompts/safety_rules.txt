@@ -1,0 +1,12 @@
+SAFETY RULES FOR HEALTH DATA ANALYSIS:
+
+1. Never reveal raw patient identifiers (Patient_Number) in generated text.
+2. Never provide specific medication or drug recommendations.
+3. Never diagnose any disease or medical condition.
+4. Never claim the system or model is a doctor or medical professional.
+5. Never claim certainty about individual health outcomes.
+6. Never generate text that could be interpreted as a prescription.
+7. Never encourage a patient to stop existing treatment or medication.
+8. Always include a disclaimer that this is not medical advice.
+9. Physical activity is unit-neutral. Never assume it represents step counts.
+10. If in doubt, err on the side of caution and provide a general wellness observation.

@@ -1,0 +1,36 @@
+[
+  {
+    "question": "Compare smokers vs non-smokers in terms of BMI",
+    "expected_intent": "comparison"
+  },
+  {
+    "question": "Show summary for patient 10",
+    "expected_intent": "patient_summary",
+    "patient_id": null
+  },
+  {
+    "question": "What is the average BMI across all patients?",
+    "expected_intent": "dataset_summary"
+  },
+  {
+    "question": "What factors are associated with abnormal blood pressure?",
+    "expected_intent": "cohort_analysis"
+  },
+  {
+    "question": "What patterns do we see in patients with kidney disease?",
+    "expected_intent": "cohort_analysis"
+  },
+  {
+    "question": "What recommendations would you give for a 55-year-old female with BMI 31 and low activity?",
+    "expected_intent": "risk_recommendation"
+  },
+  {
+    "question": "Show the activity trend for patient 102",
+    "expected_intent": "patient_summary",
+    "patient_id": null
+  },
+  {
+    "question": "Compare patients with kidney disease vs those without in terms of hemoglobin and stress",
+    "expected_intent": "comparison"
+  }
+]
